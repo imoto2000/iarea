@@ -20,7 +20,6 @@ module IArea
         mesh = Mesh.latlng2mesh lat,lng,i
         n = @@data.detect{ |n|
           n[:mesh][i].any?{ |m| 
-            puts m if m == mesh 
             m == mesh 
           }
         }
