@@ -1,0 +1,47 @@
+require 'yaml'
+
+module IArea
+
+  # represends i-area data
+  class Record
+    @@data = nil
+
+    
+    def initialize(params)
+      @code = params[:code]
+      @subcode = params[:code]
+      @name = params[:name]
+    end
+    
+    def self.find(lat,lng)
+      load!
+      lat_msec = (lat * 3600000).to_i
+      lng_msec = (lng * 3600000).to_i
+
+      nominees = @@data.select { |d|
+        lng_msec >= d[:west_lng].to_i &&
+        lng_msec <= d[:east_lng].to_i &&
+        lat_msec >= d[:south_lat].to_i &&
+        lat_msec <= d[:north_lat].to_i
+      }
+
+      (2..7).each do |i|
+        mesh = Mesh.latlng2mesh lat,lng,i
+        n = nominees.detect{ |n|
+          n[:mesh][i].any?{ |m| m == mesh }
+        }
+        return self.new(n) if n
+      end
+    end
+
+    def self.load!
+      return unless @@data.nil?
+      f = File.expand_path( File.dirname(__FILE__) + "/../iarea.yml" )
+      @@data = YAML.load( open(f).read )
+    end
+
+    def self.to_yml
+      YAML.dump @@data
+    end
+  end
+end
