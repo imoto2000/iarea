@@ -1,6 +1,7 @@
 require "iarea/version"
 require "iarea/mesh"
 require "iarea/record"
+require "iarea/prefecture"
 
 module IArea
   def load!

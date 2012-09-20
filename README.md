@@ -1,6 +1,6 @@
-# Iarea
+# IArea
 
-TODO: Write a gem description
+find open i-area from latitude, longitude.
 
 ## Installation
 

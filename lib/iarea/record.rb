@@ -9,8 +9,12 @@ module IArea
     
     def initialize(params)
       @code = params[:code]
-      @subcode = params[:code]
+      @subcode = params[:subcode]
       @name = params[:name]
+    end
+
+    def prefecture
+      @prefecure ||= Prefecture.find(code,subcode)
     end
     
     def self.find(lat,lng)

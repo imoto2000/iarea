@@ -48,4 +48,10 @@ describe "IArea" do
       IArea.find(36.561572,139.88732).name.should == "宇都宮"
     end
   end
+
+  context "prefecture" do
+    it "should return prefecture" do
+      IArea.find(35.490981,139.667322).prefecture == "神奈川"
+    end
+  end
 end
