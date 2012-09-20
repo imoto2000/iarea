@@ -15,4 +15,6 @@ Gem::Specification.new do |gem|
   gem.name          = "iarea"
   gem.require_paths = ["lib"]
   gem.version       = IArea::VERSION
+
+  gem.add_development_dependency "rspec"
 end
