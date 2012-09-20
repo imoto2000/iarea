@@ -2,11 +2,29 @@
 
 find open i-area from latitude, longitude.
 
+## What's Open i-Area?
+
+http://www.nttdocomo.co.jp/service/developer/make/content/iarea/domestic/index.html
+
+## Usage
+
+```
+require 'iarea'
+
+iarea = IArea.find(35.490981,139.667322)
+p iarea.code #=> 078
+p iarea.subcode #=> 10
+p iarea.name #=> 川崎/鶴見
+p iarea.prefecture # => 神奈川
+
+```
+
+
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'iarea'
+    gem 'iarea',:git => this_repository
 
 And then execute:
 
