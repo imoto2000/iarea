@@ -1,19 +1,4 @@
 ---
-- :district: ''
-  :prefecture: ''
-  :code: ''
-  :subcode: ''
-  :name: 2008/1/10
-- :district: 地域
-  :prefecture: 県名
-  :code: エリアコード
-  :subcode: ''
-  :name: エリア名称
-- :district: ''
-  :prefecture: ''
-  :code: ｴﾘｱID
-  :subcode: ! '"ｻﾌ""ｴﾘｱID"'
-  :name: 
 - :district: 北海道
   :prefecture: 北海道
   :code: '001'
@@ -1752,7 +1737,7 @@
 - :district: 関西
   :prefecture: 京都
   :code: '149'
-  :subcode: '19 '
+  :subcode: '19'
   :name: 四条大宮
 - :district: 関西
   :prefecture: 京都

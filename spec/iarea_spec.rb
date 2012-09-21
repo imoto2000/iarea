@@ -53,6 +53,22 @@ describe "IArea" do
     it "should return prefecture" do
       IArea.find(35.490981,139.667322).prefecture == "神奈川"
     end
+    
+    it "should list up all Kyoto iarea" do
+      IArea::Prefecture.new("京都").iareas.each do |ia|
+        ia.name
+      end
+    end
+
+    it "shoud list up all prefectures" do
+      IArea::Prefecture.all.first.should be_a_kind_of(IArea::Prefecture)
+      IArea::Prefecture.all.each do |pr|
+        pr.iareas.each do |a|
+          pr.name
+          a.name
+        end
+      end
+    end
   end
 
   context "IArea.from_code(code,subcode)" do
