@@ -19,7 +19,6 @@ module IArea
     
     def self.find(lat,lng)
       load!
-
       (2..7).each do |i|
         mesh = Mesh.latlng2mesh lat,lng,i
         n = @@data.detect{ |n|
@@ -38,6 +37,7 @@ module IArea
     end
 
     def self.from_code(code,subcode)
+      load!
       d = @@data.detect { |d|
         d[:code] == code and d[:subcode] == subcode
       }
