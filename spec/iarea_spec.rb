@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
-describe "IArea" do
 
+describe "IArea" do
   before do
     @lat = 35.708057
     @lng = 139.75222
@@ -52,6 +52,14 @@ describe "IArea" do
   context "prefecture" do
     it "should return prefecture" do
       IArea.find(35.490981,139.667322).prefecture == "神奈川"
+    end
+  end
+
+  context "IArea.from_code(code,subcode)" do
+    it "should get IArea::Record" do
+      iarea = IArea.from_code("078","20")
+      iarea.should be_a_kind_of(IArea::Record)
+      iarea.name.should == "川崎/鶴見"
     end
   end
 end

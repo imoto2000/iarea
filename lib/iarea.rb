@@ -12,5 +12,9 @@ module IArea
     Record.find(lat,lng)
   end
 
-  module_function :load!,:find
+  def from_code(code,subcode)
+    Record.from_code(code,subcode)
+  end
+
+  module_function :load!,:find,:from_code
 end

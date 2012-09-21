@@ -37,6 +37,13 @@ module IArea
       @@data = YAML.load( open(f).read )
     end
 
+    def self.from_code(code,subcode)
+      d = @@data.detect { |d|
+        d[:code] == code and d[:subcode] == subcode
+      }
+      self.new(d) if d
+    end
+
     def self.to_yml
       YAML.dump @@data
     end
