@@ -166,12 +166,12 @@
   :name: 一ノ関
 - :district: 東北
   :prefecture: 岩手
-  :code: 008
+  :code: '008'
   :subcode: '00'
   :name: 盛岡
 - :district: 東北
   :prefecture: 岩手
-  :code: 009
+  :code: '009'
   :subcode: '00'
   :name: 沿岸
 - :district: 東北
@@ -221,17 +221,17 @@
   :name: 会津若松/喜多方
 - :district: 東北
   :prefecture: 福島
-  :code: 018
+  :code: '018'
   :subcode: '00'
   :name: いわき
 - :district: 東北
   :prefecture: 宮城
-  :code: 019
+  :code: '019'
   :subcode: '00'
   :name: 仙台市周辺
 - :district: 東北
   :prefecture: 宮城
-  :code: 019
+  :code: '019'
   :subcode: '01'
   :name: 仙南
 - :district: 東北
@@ -276,12 +276,12 @@
   :name: 宇都宮
 - :district: 関東甲信越
   :prefecture: 栃木
-  :code: 028
+  :code: '028'
   :subcode: '00'
   :name: 中禅寺湖/日光周辺
 - :district: 関東甲信越
   :prefecture: 栃木
-  :code: 029
+  :code: '029'
   :subcode: '00'
   :name: 鬼怒川/川治
 - :district: 関東甲信越
@@ -326,12 +326,12 @@
   :name: 沼田/水上
 - :district: 関東甲信越
   :prefecture: 新潟
-  :code: 038
+  :code: '038'
   :subcode: '00'
   :name: 湯沢/奥只見
 - :district: 関東甲信越
   :prefecture: 新潟
-  :code: 039
+  :code: '039'
   :subcode: '00'
   :name: 糸魚川/直江津
 - :district: 関東甲信越
@@ -381,17 +381,17 @@
   :name: 外房
 - :district: 関東甲信越
   :prefecture: 千葉
-  :code: 048
+  :code: '048'
   :subcode: '00'
   :name: 茂原/九十九里
 - :district: 関東甲信越
   :prefecture: 千葉
-  :code: 048
+  :code: '048'
   :subcode: '01'
   :name: 八日市場
 - :district: 関東甲信越
   :prefecture: 千葉
-  :code: 049
+  :code: '049'
   :subcode: '00'
   :name: 成田/佐倉
 - :district: 関東甲信越
@@ -461,82 +461,82 @@
   :name: 麹町/市ヶ谷
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 058
+  :code: '058'
   :subcode: '00'
   :name: 銀座
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 058
+  :code: '058'
   :subcode: '02'
   :name: 日本橋
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 058
+  :code: '058'
   :subcode: '04'
   :name: 人形町/浜町
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 058
+  :code: '058'
   :subcode: '05'
   :name: 築地
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 058
+  :code: '058'
   :subcode: '06'
   :name: 月島/晴海/豊洲
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 058
+  :code: '058'
   :subcode: '07'
   :name: 新橋
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 058
+  :code: '058'
   :subcode: 08
   :name: 浜松町/芝浦
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 058
+  :code: '058'
   :subcode: 09
   :name: 田町/三田
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 058
+  :code: '058'
   :subcode: '10'
   :name: 品川
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 059
+  :code: '059'
   :subcode: '00'
   :name: 赤坂
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 059
+  :code: '059'
   :subcode: '01'
   :name: 青山/信濃町
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 059
+  :code: '059'
   :subcode: '02'
   :name: 六本木
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 059
+  :code: '059'
   :subcode: '03'
   :name: 西麻布
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 059
+  :code: '059'
   :subcode: '04'
   :name: 麻布十番
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 059
+  :code: '059'
   :subcode: '05'
   :name: 広尾/白金
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 059
+  :code: '059'
   :subcode: '06'
   :name: お台場/有明
 - :district: 関東甲信越
@@ -871,22 +871,22 @@
   :name: 葛西臨海公園
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 068
+  :code: '068'
   :subcode: '00'
   :name: 吉祥寺/三鷹
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 068
+  :code: '068'
   :subcode: '01'
   :name: 国分寺/国立
 - :district: 関東甲信越
   :prefecture: 埼玉
-  :code: 068
+  :code: '068'
   :subcode: '02'
   :name: 所沢
 - :district: 関東甲信越
   :prefecture: 埼玉
-  :code: 069
+  :code: '069'
   :subcode: '00'
   :name: 飯能/日高
 - :district: 関東甲信越
@@ -966,242 +966,242 @@
   :name: 青梅/福生/奥多摩
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '10'
   :name: 八景島/金沢文庫
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '11'
   :name: 横浜
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '12'
   :name: 上大岡/港南台
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '13'
   :name: 大船/本郷台
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '14'
   :name: 戸塚
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '15'
   :name: いずみ野/緑園都市
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '16'
   :name: 大和/瀬谷/三ツ境
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '17'
   :name: 中山/長津田
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '18'
   :name: 希望が丘/二俣川
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '19'
   :name: 新横浜
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '20'
   :name: 川崎/鶴見
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '00'
   :name: 溝の口/たまプラーザ/青葉台
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '01'
   :name: 港北ニュータウン
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '02'
   :name: みなとみらい
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '03'
   :name: 元町/中華街
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '04'
   :name: 関内/伊勢佐木町
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '05'
   :name: 石川町
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '06'
   :name: 本牧/三渓園
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '07'
   :name: 弘明寺/井土ヶ谷
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: 08
   :name: 保土ヶ谷
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: 09
   :name: 磯子
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 078
+  :code: '078'
   :subcode: '21'
   :name: 武蔵小杉/日吉
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 079
+  :code: '079'
   :subcode: '00'
   :name: 新百合ヶ丘/登戸
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 080
+  :code: '080'
   :subcode: '00'
   :name: 鎌倉/由比/大船
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 081
+  :code: '081'
   :subcode: '00'
   :name: 横須賀/逗子
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 082
+  :code: '082'
   :subcode: '00'
   :name: 平塚/大磯
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 082
+  :code: '082'
   :subcode: '01'
   :name: 藤沢/茅ヶ崎/江ノ島
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 083
+  :code: '083'
   :subcode: '00'
   :name: 町田
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 083
+  :code: '083'
   :subcode: '01'
   :name: 本厚木/海老名/相模大野
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 084
+  :code: '084'
   :subcode: '00'
   :name: 大島/新島
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 085
+  :code: '085'
   :subcode: '00'
   :name: 三宅島/八丈島
 - :district: 関東甲信越
   :prefecture: 東京
-  :code: 086
+  :code: '086'
   :subcode: '00'
   :name: 小笠原諸島
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 087
+  :code: '087'
   :subcode: '00'
   :name: 小田原
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 088
+  :code: '088'
   :subcode: '00'
   :name: 箱根
 - :district: 関東甲信越
   :prefecture: 神奈川
-  :code: 089
+  :code: '089'
   :subcode: '00'
   :name: 真鶴/湯河原
 - :district: 東海
   :prefecture: 静岡
-  :code: 090
+  :code: '090'
   :subcode: '00'
   :name: 熱海/伊東/東伊豆
 - :district: 東海
   :prefecture: 静岡
-  :code: 092
+  :code: '092'
   :subcode: '00'
   :name: 下田/南伊豆
 - :district: 東海
   :prefecture: 静岡
-  :code: 093
+  :code: '093'
   :subcode: '00'
   :name: 沼津/三島/御殿場
 - :district: 東海
   :prefecture: 静岡
-  :code: 093
+  :code: '093'
   :subcode: '01'
   :name: 西伊豆
 - :district: 東海
   :prefecture: 静岡
-  :code: 093
+  :code: '093'
   :subcode: '02'
   :name: 中伊豆
 - :district: 関東甲信越
   :prefecture: 山梨
-  :code: 094
+  :code: '094'
   :subcode: '00'
   :name: 富士吉田
 - :district: 東海
   :prefecture: 静岡
-  :code: 095
+  :code: '095'
   :subcode: '00'
   :name: 富士/富士宮
 - :district: 関東甲信越
   :prefecture: 山梨
-  :code: 096
+  :code: '096'
   :subcode: '00'
   :name: 甲府
 - :district: 関東甲信越
   :prefecture: 山梨
-  :code: 097
+  :code: '097'
   :subcode: '00'
   :name: 身延線周辺
 - :district: 東海
   :prefecture: 静岡
-  :code: 098
+  :code: '098'
   :subcode: '00'
   :name: 静岡
 - :district: 東海
   :prefecture: 静岡
-  :code: 098
+  :code: '098'
   :subcode: '01'
   :name: 焼津/藤枝/志太
 - :district: 東海
   :prefecture: 静岡
-  :code: 098
+  :code: '098'
   :subcode: '02'
   :name: 静岡清水/庵原
 - :district: 東海
   :prefecture: 静岡
-  :code: 099
+  :code: '099'
   :subcode: '00'
   :name: 静岡駅周辺
 - :district: 東海
