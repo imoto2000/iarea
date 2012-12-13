@@ -47,12 +47,12 @@
 - :district: 北海道
   :prefecture: 北海道
   :code: '002'
-  :subcode: 08
+  :subcode: '08'
   :name: すすきの
 - :district: 北海道
   :prefecture: 北海道
   :code: '002'
-  :subcode: 09
+  :subcode: '09'
   :name: 中島公園周辺
 - :district: 北海道
   :prefecture: 北海道
@@ -492,12 +492,12 @@
 - :district: 関東甲信越
   :prefecture: 東京
   :code: '058'
-  :subcode: 08
+  :subcode: '08'
   :name: 浜松町/芝浦
 - :district: 関東甲信越
   :prefecture: 東京
   :code: '058'
-  :subcode: 09
+  :subcode: '09'
   :name: 田町/三田
 - :district: 関東甲信越
   :prefecture: 東京
@@ -637,12 +637,12 @@
 - :district: 関東甲信越
   :prefecture: 東京
   :code: '062'
-  :subcode: 08
+  :subcode: '08'
   :name: 三軒茶屋/三宿
 - :district: 関東甲信越
   :prefecture: 東京
   :code: '062'
-  :subcode: 09
+  :subcode: '09'
   :name: 二子玉川
 - :district: 関東甲信越
   :prefecture: 東京
@@ -702,12 +702,12 @@
 - :district: 関東甲信越
   :prefecture: 東京
   :code: '063'
-  :subcode: 08
+  :subcode: '08'
   :name: 高田馬場/早稲田
 - :district: 関東甲信越
   :prefecture: 東京
   :code: '063'
-  :subcode: 09
+  :subcode: '09'
   :name: 中野
 - :district: 関東甲信越
   :prefecture: 東京
@@ -787,12 +787,12 @@
 - :district: 関東甲信越
   :prefecture: 東京
   :code: '065'
-  :subcode: 08
+  :subcode: '08'
   :name: 赤羽
 - :district: 関東甲信越
   :prefecture: 東京
   :code: '065'
-  :subcode: 09
+  :subcode: '09'
   :name: 田端/駒込/巣鴨
 - :district: 関東甲信越
   :prefecture: 東京
@@ -867,7 +867,7 @@
 - :district: 関東甲信越
   :prefecture: 東京
   :code: '067'
-  :subcode: 08
+  :subcode: '08'
   :name: 葛西臨海公園
 - :district: 関東甲信越
   :prefecture: 東京
@@ -1062,12 +1062,12 @@
 - :district: 関東甲信越
   :prefecture: 神奈川
   :code: '078'
-  :subcode: 08
+  :subcode: '08'
   :name: 保土ヶ谷
 - :district: 関東甲信越
   :prefecture: 神奈川
   :code: '078'
-  :subcode: 09
+  :subcode: '09'
   :name: 磯子
 - :district: 関東甲信越
   :prefecture: 神奈川
@@ -1322,12 +1322,12 @@
 - :district: 東海
   :prefecture: 愛知
   :code: '114'
-  :subcode: 08
+  :subcode: '08'
   :name: 名古屋駅
 - :district: 東海
   :prefecture: 愛知
   :code: '114'
-  :subcode: 09
+  :subcode: '09'
   :name: 中村区
 - :district: 東海
   :prefecture: 愛知
@@ -1702,7 +1702,7 @@
 - :district: 関西
   :prefecture: 京都
   :code: '149'
-  :subcode: 08
+  :subcode: '08'
   :name: 修学院/岩倉/八瀬/大原
 - :district: 関西
   :prefecture: 京都
@@ -1897,7 +1897,7 @@
 - :district: 関西
   :prefecture: 大阪
   :code: '172'
-  :subcode: 08
+  :subcode: '08'
   :name: 天王寺/あべの橋
 - :district: 関西
   :prefecture: 大阪
@@ -2042,12 +2042,12 @@
 - :district: 関西
   :prefecture: 兵庫
   :code: '179'
-  :subcode: 08
+  :subcode: '08'
   :name: 東灘/六甲アイランド
 - :district: 関西
   :prefecture: 兵庫
   :code: '179'
-  :subcode: 09
+  :subcode: '09'
   :name: 須磨/垂水
 - :district: 関西
   :prefecture: 兵庫
@@ -2197,7 +2197,7 @@
 - :district: 中国
   :prefecture: 広島
   :code: '200'
-  :subcode: 08
+  :subcode: '08'
   :name: 北広島/安芸太田/安芸高田
 - :district: 中国
   :prefecture: 山口
