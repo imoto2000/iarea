@@ -16,6 +16,15 @@ module IArea
         IArea.from_code(d[:code],d[:subcode])
       }
     end
+
+    def cities
+      self.class.load!
+      @@data.select{ |c|
+        c[:name] == name
+      }.map{ |c|
+        IArea.from_code(c[:code],c[:subcode])
+      }
+    end
     
     def self.load!
       return unless @@data.nil?
